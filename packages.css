@@ -1,0 +1,54 @@
+#section-one {
+  background: url("plans-background.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 800px;
+}
+#plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  padding-top: 300px;
+}
+.home-plans,
+.bundle-plans,
+.mobile-plans {
+  background-color: whitesmoke;
+  width: 400px;
+  height: 370px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.home-plans h1,
+.bundle-plans h1,
+.mobile-plans h1 {
+  font-size: 20px;
+  padding: 20px;
+}
+.home-plans p,
+.bundle-plans p,
+.mobile-plans p {
+  font-size: 16px;
+  padding: 20px;
+}
+.home-plans a,
+.bundle-plans a,
+.mobile-plans a {
+  font-size: 20px;
+  padding: 20px;
+  width: 300px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: green;
+  color: whitesmoke;
+  border-radius: 40px;
+}
+.bundle-plans a {
+  margin-top: 47px;
+}
+.mobile-plans a {
+  margin-top: 28px;
+}
